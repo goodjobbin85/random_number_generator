@@ -13,3 +13,14 @@ alert("This program will generate numbers randomly. Pick a number from 1 to 10")
 var number = Math.floor(Math.random() * 10) + 1;
 alert("Your number is " + number);
 
+if (number < 3) {
+  alert("Try again");
+}
+else if (number <= 7) {
+  alert("You can do better");
+}
+else {
+  alert("You Win!");
+}
+
+

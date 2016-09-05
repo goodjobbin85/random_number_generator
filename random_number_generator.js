@@ -7,4 +7,9 @@
  * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
  */
 
-alert("This program will generate numbers randomly");
+alert("This program will generate numbers randomly. Pick a number from 1 to 10");
+
+//generate a fandom number from 1 to 10
+var number = Math.floor(Math.random() * 10) + 1;
+alert("Your number is " + number);
+
